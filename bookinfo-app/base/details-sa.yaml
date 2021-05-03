@@ -2,6 +2,6 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: bookinfo-details-sa
+  name: bookinfo-details
   labels:
     account: details
