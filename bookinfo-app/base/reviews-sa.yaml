@@ -2,5 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: bookinfo-reviews
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   labels:
     account: reviews

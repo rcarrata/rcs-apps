@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: productpage-v1
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
   labels:
     app: productpage
     version: v1

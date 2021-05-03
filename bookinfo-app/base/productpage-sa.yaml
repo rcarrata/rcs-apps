@@ -2,5 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: bookinfo-productpage
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
   labels:
     account: productpage

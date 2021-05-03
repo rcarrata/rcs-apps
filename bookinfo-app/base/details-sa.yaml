@@ -3,5 +3,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: bookinfo-details
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
   labels:
     account: details
