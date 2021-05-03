@@ -8,3 +8,4 @@ bases:
 
 resources:
 - bookinfo-ns.yaml
+- bookinfo-ingress.yaml
