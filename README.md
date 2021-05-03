@@ -1,2 +1,3 @@
-# kanban-board-cicd
-kanban-board-cicd
+# Apps for GitOps 
+
+Repository for Apps for GitOps
