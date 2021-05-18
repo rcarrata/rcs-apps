@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- details-sa.yaml
+- details-svc.yaml
+- details-deployment.yaml
+- reviews-sa.yaml
+- reviews-svc.yaml
+- reviews-deployment.yaml
+- productpage-svc.yaml
+- productpage-sa.yaml
+- productpage-deployment.yaml
