@@ -8,4 +8,4 @@ bases:
 
 resources:
 - products-ns.yaml
-- netpol-only-same-ns.yaml
+#- netpol-only-same-ns.yaml
