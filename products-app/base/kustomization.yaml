@@ -11,3 +11,4 @@ resources:
 - productpage-svc.yaml
 - productpage-sa.yaml
 - productpage-deployment.yaml
+- limitrange.yaml
